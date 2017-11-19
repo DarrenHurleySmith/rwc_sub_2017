@@ -1,0 +1,899 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 16800000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9994048,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9994048
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27504.161
+       EColl = n^2 / (2k) =  181.6824723
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27504.16
+       Expected number of collisions = Mu =     181.68
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5450.37
+Observed number of collisions         :     5592
+p-value of test                       :    0.03
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037392472
+  j =  1                              :        299810256
+  j =  2                              :             5592
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:02:27.91
+
+Generator state:
+ 299821440  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1988636,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   23.00
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.22
+
+Generator state:
+ 3181817600  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 994318,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:27.69
+
+Generator state:
+ 3181817600  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 525000000,   K = 525000000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =  15750000000 bits
+   Q = 525000000 initialization blocks
+   K = 525000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.24
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:01:52.49
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 269216,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   11
+Chi2 statistic for size of jumps      :    8.32
+p-value of test                       :    0.68
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.73
+p-value of test                       :    0.77
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:37.11
+
+Generator state:
+ 269216  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :    0.57
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.68
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   0.035
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.12
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 300000,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.02e-3
+p-value of test                       :    0.9909
+
+Kolmogorov-Smirnov- statistic = D-    :   0.034
+p-value of test                       :  7.4e-5    *****
+
+Anderson-Darling statistic = A2       :   11.28
+p-value of test                       :  3.7e-6    *****
+
+-----------------------------------------------
+CPU time used                    :  00:02:54.64
+
+Generator state:
+ 4924800000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 28000000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    6.22
+p-value of test                       :    0.62
+
+-----------------------------------------------
+Global longest run of 1               :   33.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:07.37
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  331
+Chi-square statistic                  :  311.68
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.90
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :   64.03
+p-value of test                       :  1.2e-4    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.07
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.19
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.17
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    2.11
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:21.04
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 131250000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.61
+p-value of test                       :    0.73
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.82
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  324.46
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.69
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  605
+Chi-square statistic                  :  687.35
+p-value of test                       :    0.01
+
+-----------------------------------------------
+CPU time used                    :  00:00:21.16
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 65625000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1093
+Chi-square statistic                  : 1010.60
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.87
+
+Generator state:
+ 8400000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 17,  n = 988235233,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.83
+p-value of test                       : 5.9e-14    *****
+
+Kolmogorov-Smirnov- statistic = D-    : 1.02e-6
+p-value of test                       : 1 -  1.0e-6    *****
+
+Anderson-Darling statistic = A2       :   59.07
+p-value of test                       : 2.8e-27    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :  -11.17
+p-value of test                       : 1 - eps1    *****
+
+Sample variance                       :    1.23
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:00:51.40
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 17,  n = 988235234,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.23
+
+Kolmogorov-Smirnov- statistic = D-    :   0.050
+p-value of test                       :    0.89
+
+Anderson-Darling statistic = A2       :    0.64
+p-value of test                       :    0.61
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.82
+p-value of test                       :    0.79
+
+Sample variance                       :    1.11
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:49.71
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  4,  n = 840000000,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Test results for the number of runs:
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.36e-5
+p-value of test                       : 1 -  1.4e-5    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       : 1.2e-14    *****
+
+Anderson-Darling statistic = A2       :   32.52
+p-value of test                       : 1.3e-15    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  208
+Chi-square statistic                  :  404.19
+p-value of test                       : 1.0e-14    *****
+
+
+-----------------------------------------------
+Test results for the number of bits:
+
+Kolmogorov-Smirnov+ statistic = D+    : 4.35e-6
+p-value of test                       : 1 -  4.4e-6    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       : 6.2e-15    *****
+
+Anderson-Darling statistic = A2       :   33.08
+p-value of test                       : 7.3e-16    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    7.84
+p-value of test                       : 2.3e-15    *****
+
+Sample variance                       :    0.17
+p-value of test                       :    0.92
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:38.71
+
+Generator state:
+ 13441285088  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 16406250,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    5.24
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:02:50.72
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 164062,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    5.47
+p-value of test                       :    0.14
+
+-----------------------------------------------
+CPU time used                    :  00:03:47.19
+
+Generator state:
+ 16799948800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 16021,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.44
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:07:19.50
+
+Generator state:
+ 16799236096  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 131250000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   58
+ChiSquare statistic                   :   85.21
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   59
+ChiSquare statistic                   :   75.20
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   79.61
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   47
+ChiSquare statistic                   :   73.57
+p-value of test                       :  7.9e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   40.29
+p-value of test                       :    0.08
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:28.71
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 16406250,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  150
+ChiSquare statistic                   :  171.20
+p-value of test                       :    0.11
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  151
+ChiSquare statistic                   :  161.95
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  566.13
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  141
+ChiSquare statistic                   :  165.94
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   77
+ChiSquare statistic                   :   90.88
+p-value of test                       :    0.13
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:16.48
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1677316,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  396
+ChiSquare statistic                   :  410.07
+p-value of test                       :    0.30
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  397
+ChiSquare statistic                   :  430.33
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 5145.61
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  391
+ChiSquare statistic                   :  382.05
+p-value of test                       :    0.62
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  207
+ChiSquare statistic                   :  199.87
+p-value of test                       :    0.63
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:14.09
+
+Generator state:
+ 16799997056  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/DHS_BackUp/TRNGData/QuantisResults/quantis-usb95-win.bin
+ Number of bits:   16800000000
+ Number of statistics:  40
+ Total CPU time:   00:42:43.01
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  8  Fourier3                        3.7e-6
+ 11  HammingWeight                   1.2e-4
+ 18  AutoCor                        1 - eps1
+ 20  Run of bits                    1.0e-14
+ 20  Run of bits                    2.3e-15
+ ----------------------------------------------
+ All other tests were passed
+
+
+

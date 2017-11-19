@@ -1,0 +1,901 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 16777216000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9998336,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9998336
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27492.365
+       EColl = n^2 / (2k) =  181.8384094
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27492.37
+       Expected number of collisions = Mu =     181.84
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5455.05
+Observed number of collisions         :     5478
+p-value of test                       :    0.38
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037263718
+  j =  1                              :        299939124
+  j =  2                              :             5478
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:01:56.06
+
+Generator state:
+ 299950080  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1985939,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   22.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.47
+
+Generator state:
+ 3177502400  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 992969,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.09
+
+Generator state:
+ 3177500800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 524288000,   K = 524288000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =  15728640000 bits
+   Q = 524288000 initialization blocks
+   K = 524288000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   0.048
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:01:05.31
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 269024,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   11
+Chi2 statistic for size of jumps      :    5.72
+p-value of test                       :    0.89
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.77
+p-value of test                       :    0.78
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.37
+
+Generator state:
+ 269024  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.21
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.58
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      : -3.49e-3
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.41
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 300000,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 8.90e-4
+p-value of test                       :    0.9929
+
+Kolmogorov-Smirnov- statistic = D-    :   0.041
+p-value of test                       :  1.2e-6    *****
+
+Anderson-Darling statistic = A2       :   15.60
+p-value of test                       :  4.1e-8    *****
+
+-----------------------------------------------
+CPU time used                    :  00:01:39.62
+
+Generator state:
+ 4924800000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 27962016
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    4.35
+p-value of test                       :    0.82
+
+-----------------------------------------------
+Global longest run of 1               :   37.00
+p-value of test                       :    0.06
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:13.23
+
+Generator state:
+ 16777209600  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 524288000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  331
+Chi-square statistic                  :  294.33
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.82
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 524288000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :  105.98
+p-value of test                       : 5.3e-11    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.31
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 524288000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.44
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.70
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 262144000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.22
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.50
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 131072000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      : 4.84e-3
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.90
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 524288000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  391.51
+p-value of test                       :  6.9e-6    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.53
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 262144000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  605
+Chi-square statistic                  :  672.50
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.90
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 65536000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1093
+Chi-square statistic                  : 1191.18
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:06.61
+
+Generator state:
+ 8388608000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 17,  n = 986895009,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.90
+p-value of test                       : 5.3e-18    *****
+
+Kolmogorov-Smirnov- statistic = D-    : 2.20e-6
+p-value of test                       : 1 -  2.2e-6    *****
+
+Anderson-Darling statistic = A2       :   69.31
+p-value of test                       : 9.3e-32    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :  -12.12
+p-value of test                       : 1 - eps1    *****
+
+Sample variance                       :    0.95
+p-value of test                       :    0.51
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.00
+
+Generator state:
+ 16777215680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 17,  n = 986895010,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.062
+p-value of test                       :    0.84
+
+Kolmogorov-Smirnov- statistic = D-    :    0.19
+p-value of test                       :    0.24
+
+Anderson-Darling statistic = A2       :    0.69
+p-value of test                       :    0.57
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.90
+p-value of test                       :    0.19
+
+Sample variance                       :    0.72
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.25
+
+Generator state:
+ 16777215680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  4,  n = 838860800,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Test results for the number of runs:
+
+Kolmogorov-Smirnov+ statistic = D+    :2.78e-14
+p-value of test                       : 1 - 2.8e-14    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.99
+p-value of test                       :  2.9e-8    *****
+
+Anderson-Darling statistic = A2       :   28.85
+p-value of test                       : 5.4e-14    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  208
+Chi-square statistic                  :  442.26
+p-value of test                       : 5.4e-19    *****
+
+
+-----------------------------------------------
+Test results for the number of bits:
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.61e-7
+p-value of test                       : 1 -  1.6e-7    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       : 1.1e-11    *****
+
+Anderson-Darling statistic = A2       :   27.95
+p-value of test                       : 1.3e-13    *****
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    7.64
+p-value of test                       : 1.1e-14    *****
+
+Sample variance                       :    1.04
+p-value of test                       :    0.37
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.13
+
+Generator state:
+ 13423024896  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 16384000,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    0.72
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:01:32.50
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 163840,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.52
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:02:05.80
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 16000,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :   10.42
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:03:55.10
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 131072000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   58
+ChiSquare statistic                   :  135.01
+p-value of test                       :  4.4e-8    *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   59
+ChiSquare statistic                   :   86.93
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   89.80
+p-value of test                       :    0.02
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   47
+ChiSquare statistic                   :   44.56
+p-value of test                       :    0.57
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   35.94
+p-value of test                       :    0.18
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:57.34
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 16384000,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  150
+ChiSquare statistic                   :  191.42
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  151
+ChiSquare statistic                   :  198.25
+p-value of test                       :  5.9e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  586.82
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  141
+ChiSquare statistic                   :  133.60
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   77
+ChiSquare statistic                   :   68.07
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:54.00
+
+Generator state:
+ 16777216000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1675041,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  396
+ChiSquare statistic                   :  457.49
+p-value of test                       :    0.02
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  397
+ChiSquare statistic                   :  478.27
+p-value of test                       :  3.2e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 4942.45
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  391
+ChiSquare statistic                   :  444.73
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  207
+ChiSquare statistic                   :  210.73
+p-value of test                       :    0.41
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:53.05
+
+Generator state:
+ 16777210656  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M-pcie-200GB40.bin
+ Number of bits:   16777216000
+ Number of statistics:  40
+ Total CPU time:   00:24:40.08
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  8  Fourier3                        4.1e-8
+ 11  HammingWeight                  5.3e-11
+ 15  HammingIndep, L = 16            6.9e-6
+ 18  AutoCor                        1 - eps1
+ 20  Run of bits                    5.4e-19
+ 20  Run of bits                    1.1e-14
+ 24  RandomWalk1 H                   4.4e-8
+ ----------------------------------------------
+ All other tests were passed
+
+
+

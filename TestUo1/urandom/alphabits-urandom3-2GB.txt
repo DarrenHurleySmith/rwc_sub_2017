@@ -1,0 +1,424 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 16800000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                  4
+       Expected number per cell =  2.4705882e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0595239e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.60
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.62
+
+Anderson-Darling statistic = A2       :    0.26
+p-value of test                       :    0.96
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   0.093
+p-value of test                       :    0.46
+
+Standardized empirical correlation    :   -0.67
+p-value of test                       :    0.75
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.64
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                 16
+       Expected number per cell =    61764704
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  3.5416667e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.38
+
+Kolmogorov-Smirnov- statistic = D-    :   0.088
+p-value of test                       :    0.73
+
+Anderson-Darling statistic = A2       :    0.73
+p-value of test                       :    0.53
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.53
+p-value of test                       :    0.70
+
+Standardized empirical correlation    :   -1.87
+p-value of test                       :    0.97
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.68
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                256
+       Expected number per cell =     3860294
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  6.4255954e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.084
+p-value of test                       :    0.75
+
+Kolmogorov-Smirnov- statistic = D-    :    0.15
+p-value of test                       :    0.42
+
+Anderson-Darling statistic = A2       :    0.22
+p-value of test                       :    0.99
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  -0.029
+p-value of test                       :    0.51
+
+Standardized empirical correlation    :   -0.57
+p-value of test                       :    0.71
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:26.23
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =              65536
+       Expected number per cell =   15079.273
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.6578542e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.23
+
+Kolmogorov-Smirnov- statistic = D-    :   0.053
+p-value of test                       :    0.88
+
+Anderson-Darling statistic = A2       :    0.73
+p-value of test                       :    0.53
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -0.90
+p-value of test                       :    0.82
+
+Standardized empirical correlation    :    0.84
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:16.77
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  258.43
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.99
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  605
+Chi-square statistic                  :  632.18
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.31
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   0.037
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.27
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   36.09
+p-value of test                       :    0.73
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   37.32
+p-value of test                       :    0.68
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   19.42
+p-value of test                       :    0.96
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   25.44
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   20
+ChiSquare statistic                   :   16.44
+p-value of test                       :    0.69
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:01.70
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 52500000,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :  100.07
+p-value of test                       :    0.22
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :   82.58
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  179.38
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   79
+ChiSquare statistic                   :   56.02
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   39.92
+p-value of test                       :    0.69
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:58.38
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/urandom3-2GB.bin
+ Number of bits:   16800000000
+ Number of statistics:  17
+ Total CPU time:   00:07:36.00
+
+ All tests were passed
+
+
+

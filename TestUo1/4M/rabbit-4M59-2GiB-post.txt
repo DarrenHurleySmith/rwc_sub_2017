@@ -1,0 +1,888 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 12582912000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9994368,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9994368
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  27503.281
+       EColl = n^2 / (2k) =  181.6941071
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   27503.28
+       Expected number of collisions = Mu =     181.69
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5450.72
+Observed number of collisions         :     5575
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246037382855
+  j =  1                              :        299819890
+  j =  2                              :             5575
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:02:02.65
+
+Generator state:
+ 299831040  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 1985939,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   22.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.38
+
+Generator state:
+ 3177502400  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N = 25,  n = 992969,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :   10.00
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.03
+
+Generator state:
+ 3177500800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 393216000,   K = 393216000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =  11796480000 bits
+   Q = 393216000 initialization blocks
+   K = 393216000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.58
+p-value of test                       :    0.06
+
+-----------------------------------------------
+CPU time used                    :  00:00:48.56
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 234336,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   11
+Chi2 statistic for size of jumps      :   21.88
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.55
+p-value of test                       :    0.71
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.88
+
+Generator state:
+ 234336  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :    1.32
+p-value of test                       :    0.09
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.29
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.36
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.37
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 300000,  n = 16384,  r =  0,   s =   32,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 4.99e-3
+p-value of test                       :    0.81
+
+Kolmogorov-Smirnov- statistic = D-    : 9.88e-3
+p-value of test                       :    0.45
+
+Anderson-Darling statistic = A2       :    0.46
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:01:39.92
+
+Generator state:
+ 4924800000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 20971520
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    9.26
+p-value of test                       :    0.32
+
+-----------------------------------------------
+Global longest run of 1               :   34.00
+p-value of test                       :    0.31
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:54.55
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 393216000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  312
+Chi-square statistic                  :  312.57
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:00:17.14
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 393216000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   28
+Chi-square statistic                  :   19.83
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:10.01
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 393216000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   0.090
+p-value of test                       :    0.46
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.55
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 196608000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.68
+p-value of test                       :    0.25
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.31
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 98304000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.87
+p-value of test                       :    0.81
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.60
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 393216000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  212.60
+p-value of test                       :    0.9984
+
+-----------------------------------------------
+CPU time used                    :  00:00:11.72
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 196608000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  601
+Chi-square statistic                  :  671.81
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.77
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 98304000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 1117
+Chi-square statistic                  : 1165.53
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.92
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 13,  n = 967916257,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.21
+p-value of test                       :    0.29
+
+Kolmogorov-Smirnov- statistic = D-    :    0.18
+p-value of test                       :    0.39
+
+Anderson-Darling statistic = A2       :    0.72
+p-value of test                       :    0.54
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.61
+p-value of test                       :    0.73
+
+Sample variance                       :    0.69
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:21.08
+
+Generator state:
+ 12582911744  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 13,  n = 967916258,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.66
+
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.31
+
+Anderson-Darling statistic = A2       :    0.74
+p-value of test                       :    0.52
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.60
+p-value of test                       :    0.27
+
+Sample variance                       :    1.27
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:00:21.15
+
+Generator state:
+ 12582911744  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  3,  n = 838860800,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Test results for the number of runs:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.41
+p-value of test                       :    0.29
+
+Kolmogorov-Smirnov- statistic = D-    :    0.35
+p-value of test                       :    0.39
+
+Anderson-Darling statistic = A2       :    0.63
+p-value of test                       :    0.61
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  156
+Chi-square statistic                  :  152.88
+p-value of test                       :    0.56
+
+
+-----------------------------------------------
+Test results for the number of bits:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.62
+
+Kolmogorov-Smirnov- statistic = D-    :    0.58
+p-value of test                       :    0.08
+
+Anderson-Darling statistic = A2       :    1.04
+p-value of test                       :    0.33
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.73
+p-value of test                       :    0.23
+
+Sample variance                       :   0.062
+p-value of test                       :    0.94
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:42.24
+
+Generator state:
+ 10066432480  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 12288000,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    5.29
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:01:12.28
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 122880,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.76
+p-value of test                       :    0.29
+
+-----------------------------------------------
+CPU time used                    :  00:01:33.45
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 12000,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.89
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:02:55.88
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 98304000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   58
+ChiSquare statistic                   :   43.54
+p-value of test                       :    0.92
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   58
+ChiSquare statistic                   :   76.69
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   67.12
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   61.49
+p-value of test                       :    0.06
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   34.43
+p-value of test                       :    0.22
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:28.32
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 12288000,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  148
+ChiSquare statistic                   :  115.88
+p-value of test                       :    0.98
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  149
+ChiSquare statistic                   :  130.69
+p-value of test                       :    0.86
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  475.40
+p-value of test                       :    0.88
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  139
+ChiSquare statistic                   :  136.46
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   76
+ChiSquare statistic                   :   63.16
+p-value of test                       :    0.85
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:26.00
+
+Generator state:
+ 12582912000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1256281,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  390
+ChiSquare statistic                   :  405.51
+p-value of test                       :    0.28
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  391
+ChiSquare statistic                   :  410.48
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5008
+ChiSquare statistic                   : 5011.42
+p-value of test                       :    0.48
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  367.36
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  203
+ChiSquare statistic                   :  232.70
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:25.69
+
+Generator state:
+ 12582910496  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/QuantisResults/4M/quantis-4M59-2GiB-postproc.bin
+ Number of bits:   12582912000
+ Number of statistics:  40
+ Total CPU time:   00:19:51.17
+
+ All tests were passed
+
+
+

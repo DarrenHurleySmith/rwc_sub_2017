@@ -1,0 +1,812 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 32000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  4,  n = 8000000,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 8000000
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  34359.738
+       EColl = n^2 / (2k) =  116.4153218
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   34359.74
+       Expected number of collisions = Mu =     116.41
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      465.65
+Observed number of collisions         :      488
+p-value of test                       :    0.16
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1099479628264
+  j =  1                              :         31999024
+  j =  2                              :              488
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.64
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   18.00
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 250000,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    8.00
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 1000000,   K = 1000000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =     30000000 bits
+   Q = 1000000 initialization blocks
+   K = 1000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.64
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 21312,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi2 statistic for size of jumps      :   11.57
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.86
+p-value of test                       :    0.80
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.32
+
+Generator state:
+ 21312  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 16777216,  r =  0,   s =   32,   k =   24
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.63
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.39
+
+Generator state:
+ 16777216  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.34
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.19
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 15384,  n = 2048,  r =  0,   s =   32,   k =   11
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.029
+p-value of test                       :    0.40
+
+Kolmogorov-Smirnov- statistic = D-    :   0.020
+p-value of test                       :    0.67
+
+Anderson-Darling statistic = A2       :    0.50
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.32
+
+Generator state:
+ 31998720  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 60,  r =  0,   s = 32,   L = 533312
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.93
+p-value of test                       :    0.59
+
+-----------------------------------------------
+Global longest run of 1               :   26.00
+p-value of test                       :    0.21
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+ 31998720  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  106
+Chi-square statistic                  :  105.85
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   22
+Chi-square statistic                  :   14.67
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.57
+p-value of test                       :    0.29
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.21
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 250000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.05
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  193
+Chi-square statistic                  :  198.50
+p-value of test                       :    0.38
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 500000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  341
+Chi-square statistic                  :  376.38
+p-value of test                       :    0.09
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 250000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  553
+Chi-square statistic                  :  588.24
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 31999937,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :  -0.053
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.05
+
+Generator state:
+ 31999968  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 31999938,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.18
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.05
+
+Generator state:
+ 31999968  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 6400000,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  6400007
+
+Number of degrees of freedom          :   38
+Chi2 statistic for number of runs     :   37.56
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Total number of bits:  25601312
+
+Normal statistic for number of bits   :    0.18
+p-value of test                       :    0.43
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+ 25601312  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 31250,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.56
+p-value of test                       :    0.67
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.17
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 312,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.25
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.23
+
+Generator state:
+ 31948800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 250000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   43.45
+p-value of test                       :    0.50
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   44
+ChiSquare statistic                   :   51.26
+p-value of test                       :    0.21
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   53.22
+p-value of test                       :    0.83
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   37
+ChiSquare statistic                   :   33.81
+p-value of test                       :    0.62
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   22
+ChiSquare statistic                   :   15.35
+p-value of test                       :    0.85
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 31250,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  100
+ChiSquare statistic                   :  101.44
+p-value of test                       :    0.44
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  101
+ChiSquare statistic                   :   89.32
+p-value of test                       :    0.79
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  510.04
+p-value of test                       :    0.52
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   96
+ChiSquare statistic                   :   80.79
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   53
+ChiSquare statistic                   :   66.59
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+ 32000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 3194,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  176
+ChiSquare statistic                   :  177.06
+p-value of test                       :    0.46
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  177
+ChiSquare statistic                   :  159.08
+p-value of test                       :    0.83
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  300
+ChiSquare statistic                   :  314.74
+p-value of test                       :    0.27
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  176
+ChiSquare statistic                   :  181.99
+p-value of test                       :    0.36
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  106
+ChiSquare statistic                   :  117.97
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+ 31991104  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/quantis-PCIE-16M.bin
+ Number of bits:   32000000
+ Number of statistics:  39
+ Total CPU time:   00:00:19.19
+
+ All tests were passed
+
+
+

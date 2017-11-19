@@ -1,0 +1,588 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 1600000000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 1601,  n = 999375360,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 999375360
+       Number of cells = 2^L =                  4
+       Expected number per cell =  2.4984384e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0031257e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :2.08e-11
+p-value of test                       : 1 - 2.1e-11    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.87
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       : 7383.07
+p-value of test                       :   eps      *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  269.60
+p-value of test                       :   eps      *****
+
+Standardized empirical correlation    : 1828.51
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+CPU time used                    :  01:00:51.42
+
+Generator state:
+ 1599999951360  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 1601,  n = 999375360,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 999375360
+       Number of cells = 2^L =                 16
+       Expected number per cell =    62460960
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   3.502188e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 4.22e-9
+p-value of test                       : 1 -  4.2e-9    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.74
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       : 4082.12
+p-value of test                       :   eps      *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  133.65
+p-value of test                       :   eps      *****
+
+Standardized empirical correlation    :  448.93
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:59:30.68
+
+Generator state:
+ 1599999951360  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 1601,  n = 999375360,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 999375360
+       Number of cells = 2^L =                256
+       Expected number per cell =     3903810
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  6.3539696e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.30e-5
+p-value of test                       : 1 -  1.3e-5    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.30
+p-value of test                       :2.1e-131    *****
+
+Anderson-Darling statistic = A2       :  479.21
+p-value of test                       :3.4e-210    *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   32.99
+p-value of test                       :4.9e-239    *****
+
+Standardized empirical correlation    :   27.53
+p-value of test                       :4.1e-167    *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:58:04.37
+
+Generator state:
+ 1599999951360  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 1601,  n = 999375360,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 999375360
+       Number of cells = 2^L =              65536
+       Expected number per cell =   15249.258
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.6393742e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 5.14e-3
+p-value of test                       :    0.92
+
+Kolmogorov-Smirnov- statistic = D-    :   0.030
+p-value of test                       :    0.05
+
+Anderson-Darling statistic = A2       :    1.12
+p-value of test                       :    0.30
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    1.16
+p-value of test                       :    0.12
+
+Standardized empirical correlation    : 1.96e-3
+p-value of test                       :    0.50
+
+
+-----------------------------------------------
+CPU time used                    :  02:34:25.74
+
+Generator state:
+ 1599999951360  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 51,  n = 980392156,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :4.00e-15
+p-value of test                       : 1 - 4.0e-15    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.99
+p-value of test                       :5.0e-117    *****
+
+Anderson-Darling statistic = A2       :  672.43
+p-value of test                       :3.5e-294    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 14127
+Chi-square statistic                  :21636.44
+p-value of test                       :   eps      *****
+
+-----------------------------------------------
+CPU time used                    :  00:42:46.31
+
+Generator state:
+ 1599999998592  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 51,  n = 490196078,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 6.96e-9
+p-value of test                       : 1 -  7.0e-9    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.89
+p-value of test                       : 3.4e-50    *****
+
+Anderson-Darling statistic = A2       :  297.34
+p-value of test                       :4.2e-131    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 32079
+Chi-square statistic                  :38895.41
+p-value of test                       :1.4e-140    *****
+
+-----------------------------------------------
+CPU time used                    :  00:36:57.93
+
+Generator state:
+ 1599999998592  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N = 51,  n = 980392156,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.012
+p-value of test                       :    0.98
+
+Kolmogorov-Smirnov- statistic = D-    :    0.14
+p-value of test                       :    0.11
+
+Anderson-Darling statistic = A2       :    1.38
+p-value of test                       :    0.21
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    1.61
+p-value of test                       :    0.05
+
+Sample variance                       :    1.03
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:36:15.63
+
+Generator state:
+ 1599999998592  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N = 26,  n = 961538461,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :  929.16
+p-value of test                       :   eps      *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1092
+Chi-square statistic                  : 7177.48
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+
+Kolmogorov-Smirnov+ statistic = D+    :1.11e-16
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :6.5e-116    *****
+
+Anderson-Darling statistic = A2       :  429.56
+p-value of test                       :1.3e-188    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1118
+Chi-square statistic                  : 3268.62
+p-value of test                       :2.5e-209    *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :  825.33
+p-value of test                       :   eps      *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  832
+Chi-square statistic                  : 3973.92
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 2.44e-8
+p-value of test                       : 1 -  2.4e-8    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.77
+p-value of test                       : 4.4e-17    *****
+
+Anderson-Darling statistic = A2       :   62.66
+p-value of test                       : 7.6e-29    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  780
+Chi-square statistic                  : 1348.95
+p-value of test                       : 4.7e-33    *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.52
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.49
+
+Anderson-Darling statistic = A2       :    0.33
+p-value of test                       :    0.92
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  546
+Chi-square statistic                  :  555.43
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+CPU time used                    :  03:36:51.36
+
+Generator state:
+ 1599999999104  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  6,  n = 833333333,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :  214.42
+p-value of test                       : 5.0e-95    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  588
+Chi-square statistic                  : 6249.53
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :  214.42
+p-value of test                       : 5.0e-95    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  588
+Chi-square statistic                  : 3384.80
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.000
+p-value of test                       : 1 - eps1    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    1.00
+p-value of test                       :   eps      *****
+
+Anderson-Darling statistic = A2       :  214.42
+p-value of test                       : 5.0e-95    *****
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  960
+Chi-square statistic                  : 4013.93
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 6.37e-3
+p-value of test                       :    0.9934
+
+Kolmogorov-Smirnov- statistic = D-    :    0.47
+p-value of test                       :    0.05
+
+Anderson-Darling statistic = A2       :    2.65
+p-value of test                       :    0.04
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  510
+Chi-square statistic                  :  587.51
+p-value of test                       :  9.8e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.83
+
+Kolmogorov-Smirnov- statistic = D-    :    0.27
+p-value of test                       :    0.35
+
+Anderson-Darling statistic = A2       :    0.44
+p-value of test                       :    0.80
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  300
+Chi-square statistic                  :  314.68
+p-value of test                       :    0.27
+
+
+-----------------------------------------------
+CPU time used                    :  03:32:41.76
+
+Generator state:
+ 1599999999360  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/quantis-4M-pcie-200GB.bin
+ Number of bits:   1600000000000
+ Number of statistics:  17
+ Total CPU time:   14:38:25.22
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  MultinomialBitsOver, L = 2       eps  
+  2  MultinomialBitsOver, L = 4       eps  
+  3  MultinomialBitsOver, L = 8    3.4e-210
+  5  HammingIndep, L = 16             eps  
+  6  HammingIndep, L = 32          1.4e-140
+  8  RandomWalk1 H (L = 64)           eps  
+  8  RandomWalk1 M (L = 64)        2.5e-209
+  8  RandomWalk1 J (L = 64)           eps  
+  8  RandomWalk1 R (L = 64)         4.7e-33
+  9  RandomWalk1 H (L = 320)          eps  
+  9  RandomWalk1 M (L = 320)          eps  
+  9  RandomWalk1 J (L = 320)          eps  
+ ----------------------------------------------
+ All other tests were passed
+
+
+

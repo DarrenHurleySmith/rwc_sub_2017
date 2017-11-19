@@ -1,0 +1,431 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 16800000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                  4
+       Expected number per cell =  2.4705882e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0595239e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.64
+
+Kolmogorov-Smirnov- statistic = D-    :    0.19
+p-value of test                       :    0.25
+
+Anderson-Darling statistic = A2       :    0.98
+p-value of test                       :    0.37
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  -0.045
+p-value of test                       :    0.52
+
+Standardized empirical correlation    :   -0.12
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.99
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                 16
+       Expected number per cell =    61764704
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  3.5416667e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.24
+p-value of test                       :    0.11
+
+Kolmogorov-Smirnov- statistic = D-    :    0.31
+p-value of test                       :    0.03
+
+Anderson-Darling statistic = A2       :    2.29
+p-value of test                       :    0.06
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.38
+p-value of test                       :    0.35
+
+Standardized empirical correlation    :  -0.024
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.46
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                256
+       Expected number per cell =     3860294
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  6.4255954e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.083
+p-value of test                       :    0.75
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.55
+
+Anderson-Darling statistic = A2       :    0.31
+p-value of test                       :    0.93
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.35
+p-value of test                       :    0.36
+
+Standardized empirical correlation    :   -0.28
+p-value of test                       :    0.61
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:23.23
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =              65536
+       Expected number per cell =   15079.273
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.6578542e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.021
+p-value of test                       :    0.97
+
+Kolmogorov-Smirnov- statistic = D-    :    0.28
+p-value of test                       :    0.06
+
+Anderson-Darling statistic = A2       :    1.32
+p-value of test                       :    0.23
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    1.42
+p-value of test                       :    0.08
+
+Standardized empirical correlation    :   -0.39
+p-value of test                       :    0.65
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:15.78
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  249.69
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:00:16.19
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  605
+Chi-square statistic                  :  607.03
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.40
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.21
+p-value of test                       :    0.42
+
+-----------------------------------------------
+CPU time used                    :  00:00:14.37
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   29.24
+p-value of test                       :    0.93
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   30.43
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   30.72
+p-value of test                       :    0.53
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   27.08
+p-value of test                       :    0.57
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   20
+ChiSquare statistic                   :   48.85
+p-value of test                       :  3.2e-4    *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:01.68
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-ubuntu, Linux
+
+ufile_CreateReadBin:   /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 52500000,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :   87.64
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :   81.80
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  129.46
+p-value of test                       :    0.96
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   79
+ChiSquare statistic                   :   92.47
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   63.84
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:58.94
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/RNGdata/TRNGData/chaoskey2-2GB.bin
+ Number of bits:   16800000000
+ Number of statistics:  17
+ Total CPU time:   00:07:24.07
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  8  RandomWalk1 C (L = 64)          3.2e-4
+ ----------------------------------------------
+ All other tests were passed
+
+
+

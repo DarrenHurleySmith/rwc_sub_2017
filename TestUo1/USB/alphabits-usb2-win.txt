@@ -1,0 +1,436 @@
+Input file name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Alphabit:   nb = 16800000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    2,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                  4
+       Expected number per cell =  2.4705882e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0595239e-10,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.81e-6
+p-value of test                       : 1 -  1.8e-6    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.92
+p-value of test                       : 1.1e-19    *****
+
+Anderson-Darling statistic = A2       :   63.85
+p-value of test                       : 2.3e-29    *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   23.33
+p-value of test                       :1.2e-120    *****
+
+Standardized empirical correlation    :  119.58
+p-value of test                       :   eps      *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.14
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    4,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                 16
+       Expected number per cell =    61764704
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  3.5416667e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    : 7.17e-6
+p-value of test                       : 1 -  7.2e-6    *****
+
+Kolmogorov-Smirnov- statistic = D-    :    0.67
+p-value of test                       :  1.9e-8    *****
+
+Anderson-Darling statistic = A2       :   37.24
+p-value of test                       : 1.1e-17    *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   12.60
+p-value of test                       : 1.1e-36    *****
+
+Standardized empirical correlation    :   35.26
+p-value of test                       :1.1e-272    *****
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:43.96
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =    8,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =                256
+       Expected number per cell =     3860294
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  6.4255954e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.084
+p-value of test                       :    0.75
+
+Kolmogorov-Smirnov- statistic = D-    :    0.43
+p-value of test                       :  1.3e-3
+
+Anderson-Darling statistic = A2       :    8.49
+p-value of test                       :  7.3e-5    *****
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    3.77
+p-value of test                       :  8.1e-5    *****
+
+Standardized empirical correlation    :    2.26
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:47.62
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 17,  n = 988235264,  r =  0,   s = 32,   L =   16,
+       Sparse =  FALSE
+
+       Number of bits = n = 988235264
+       Number of cells = 2^L =              65536
+       Expected number per cell =   15079.273
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  1.6578542e-05,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.090
+p-value of test                       :    0.72
+
+Kolmogorov-Smirnov- statistic = D-    :    0.13
+p-value of test                       :    0.51
+
+Anderson-Darling statistic = A2       :    0.39
+p-value of test                       :    0.86
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :    0.50
+p-value of test                       :    0.31
+
+Standardized empirical correlation    :   -1.56
+p-value of test                       :    0.94
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:37.81
+
+Generator state:
+ 16799999488  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  277
+Chi-square statistic                  :  387.27
+p-value of test                       :  1.3e-5    *****
+
+-----------------------------------------------
+CPU time used                    :  00:00:28.87
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  605
+Chi-square statistic                  :  671.84
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.17
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 525000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.42
+p-value of test                       :    0.92
+
+-----------------------------------------------
+CPU time used                    :  00:00:22.77
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 262500000,  r =  0,   s = 32,   L0 =   64,   L1 =   64
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :  120.76
+p-value of test                       :  1.5e-9    *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   52.23
+p-value of test                       :    0.13
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   32
+ChiSquare statistic                   :   76.40
+p-value of test                       :  1.7e-5    *****
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   29
+ChiSquare statistic                   :   30.29
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   20
+ChiSquare statistic                   :    7.54
+p-value of test                       :    0.9945
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:39.73
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = darren-PORTEGE-R830, Linux
+
+ufile_CreateReadBin:   /media/darren/DHS_BackUp/quantis-usb2-win.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 52500000,  r =  0,   s = 32,   L0 =  320,   L1 =  320
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :  135.00
+p-value of test                       :  1.5e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   90
+ChiSquare statistic                   :  125.45
+p-value of test                       :  8.1e-3
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  160
+ChiSquare statistic                   :  188.51
+p-value of test                       :    0.06
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   79
+ChiSquare statistic                   :   72.71
+p-value of test                       :    0.68
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   42.01
+p-value of test                       :    0.60
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:10.78
+
+Generator state:
+ 16800000000  bits have been read.
+
+
+
+
+
+========= Summary results of Alphabit =========
+
+ Version:          TestU01 1.2.3
+ File:             /media/darren/DHS_BackUp/quantis-usb2-win.bin
+ Number of bits:   16800000000
+ Number of statistics:  17
+ Total CPU time:   00:12:57.89
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  1  MultinomialBitsOver, L = 2     2.3e-29
+  2  MultinomialBitsOver, L = 4     1.1e-17
+  3  MultinomialBitsOver, L = 8      7.3e-5
+  5  HammingIndep, L = 16            1.3e-5
+  8  RandomWalk1 H (L = 64)          1.5e-9
+  8  RandomWalk1 J (L = 64)          1.7e-5
+ ----------------------------------------------
+ All other tests were passed
+
+
+

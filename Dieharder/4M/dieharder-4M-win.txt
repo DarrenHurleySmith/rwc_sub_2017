@@ -1,0 +1,287 @@
+#=============================================================================#
+#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
+#=============================================================================#
+
+Usage:
+
+dieharder [-a] [-d dieharder test number] [-f filename] [-B]
+          [-D output flag [-D output flag] ... ] [-F] [-c separator]
+          [-g generator number or -1] [-h] [-k ks_flag] [-l] 
+          [-L overlap] [-m multiply_p] [-n ntuple] 
+          [-p number of p samples] [-P Xoff]
+          [-o filename] [-s seed strategy] [-S random number seed]
+          [-n ntuple] [-p number of p samples] [-o filename]
+          [-s seed strategy] [-S random number seed]
+          [-t number of test samples] [-v verbose flag]
+          [-W weak] [-X fail] [-Y Xtrategy]
+          [-x xvalue] [-y yvalue] [-z zvalue]
+
+  -a - runs all the tests with standard/default options to create a report
+  -d test number -  selects specific diehard test.
+  -f filename - generators 201 or 202 permit either raw binary or 
+     formatted ASCII numbers to be read in from a file for testing.
+     generator 200 reads in raw binary numbers from stdin.
+     Note well: many tests with default parameters require a lot of rands!
+     To see a sample of the (required) header for ASCII formatted input, run
+
+         dieharder -o -f example.input -t 10
+
+     and then examine the contents of example.input.
+     Raw binary input reads 32 bit increments of the specified data stream.
+     stdin_input_raw accepts a pipe from a raw binary stream.
+  -B binary output (used with -o)
+  -D output flag - permits fields to be selected for inclusion in dieharder
+     output.  Each flag can be entered as a binary number that turns
+     on a specific output field or header or by flag name; flags are
+     aggregated.  To see all currently known flags use the -F command.
+  -F - lists all known flags by name and number.
+  -c table separator - where separator is e.g. ',' (CSV) or ' ' (whitespace).
+  -g generator number - selects a specific generator for testing.  Using
+     -1 causes all known generators to be printed out to the display.
+  -h prints context-sensitive help -- usually Usage (this message) or a
+     test synopsis if entered as e.g. dieharder -D 3 -h.
+  -k ks_flag - ks_flag
+
+     0 is fast but slightly sloppy for psamples > 4999 (default).
+
+     1 is MUCH slower but more accurate for larger numbers of psamples.
+
+     2 is very slow and accurate to machine precision.
+
+     3 is kuiper ks, fast, quite inaccurate for small samples, deprecated.
+
+  -l list all known tests.
+  -L overlap 
+
+     1 (use overlap, default) 
+
+     0 (don't use overlap) 
+
+     in operm5 or other tests that support overlapping and non-overlapping 
+     sample modes. 
+  -m multiply_p - multiply default # of psamples in -a(ll) runs to crank
+     up the resolution of failure.
+  -n ntuple - set ntuple length for tests on short bit strings that permit
+     the length to be varied (e.g. rgb bitdist).
+  -o filename - output -t count random numbers from current generator to file.
+  -p count - sets the number of p-value samples per test (default 100).
+  -P Xoff - sets the number of psamples that will cumulate before deciding 
+     that a generator is 'good' and really, truly passes even a -Y 2 T2D run. 
+     Currently the default is 100000; eventually it will be set from 
+     AES-derived T2D test failure thresholds for fully automated reliable 
+     operation, but for now it is more a 'boredom' threshold set by how long 
+     one might reasonably want to wait on any given test run. 
+  -S seed - where seed is a uint.  Overrides the default random seed
+     selection.  Ignored for file or stdin input.
+  -s strategy - if strategy is the (default) 0, dieharder reseeds (or
+     rewinds) once at the beginning when the random number generator is
+     selected and then never again.  If strategy is nonzero, the generator
+     is reseeded or rewound at the beginning of EACH TEST.  If -S seed was
+     specified, or a file is used, this means every test is applied to the
+     same sequence (which is useful for validation and testing of dieharder,
+     but not a good way to test rngs).  Otherwise a new random seed is
+     selected for each test.
+  -t count - sets the number of random entities used in each test, where
+     possible.  Be warned -- some tests will take a long time with the
+     default value of 10000.  Read the test synopses for suggested settings
+     for -t or use -a first.  Many tests will ignore -t as they require
+     a very specific number of samples to be used in generating their
+     statistic.
+  -W weak - sets the 'weak' threshold to make the test(s) more or less 
+     forgiving during e.g. a test-to-destruction run.  Default is currently 
+     0.005. 
+  -X fail - sets the 'fail' threshold to make the test(s) more or less 
+     forgiving during e.g. a test-to-destruction run.  Default is currently 
+     0.000001, which is basically 'certain failure of the null hypothesis', 
+     the desired mode of reproducible generator failure. 
+  -Y Xtrategy - the Xtrategy flag controls the new 'test to failure' (T2F)
+     modes.  These flags and their modes act as follows:
+
+     0 - just run dieharder with the specified number of tsamples and
+     psamples, do not dynamically modify a run based on results.  This is
+     the way it has always run, and is still the default.
+
+     1 - 'resolve ambiguity' (RA) mode.  If a test returns 'weak', this is 
+     an undesired result.  What does that mean, after all?  If you run a long
+     test series, you will see occasional weak returns for a perfect
+     generators because p is uniformly distributed and will appear in any
+     finite interval from time to time.  Even if a test run returns more than
+     one weak result, you cannot be certain that the generator is failing.
+     RA mode adds psamples (usually in blocks of 100) until the
+     test result ends up solidly not weak or proceeds to unambiguous failure.
+     This is morally equivalent to running the test several times to see if a
+     weak result is reproducible, but eliminates the bias of personal
+     judgement in the process since the default failure threshold is very
+     small and very unlikely to be reached by random chance even in many
+     runs.
+
+     This option should only be used with -k 2.
+
+     2 - 'test to destruction' (T2D) mode.  Sometimes you just want to know
+     where or if a generator will .I ever fail a test (or test series).  -Y 2
+     causes psamples to be added 100 at a time until a test returns an
+     overall pvalue lower than the failure threshold or a specified maximum
+     number of psamples (see -P) is reached.  
+
+     Note well!  In this mode one may well fail due to the alternate
+     null hypothesis -- the test itself is a bad test and fails!  Many
+     dieharder tests, despite our best efforts, are numerically unstable or
+     have only approximately known target statistics or are straight up
+     asymptotic results, and will eventually return a failing result even for
+     a gold-standard generator (such as AES), or for the hypercautious the
+     XOR generator with AES, threefish, kiss, all loaded at once and xor'd
+     together.  It is therefore safest to use this mode comparatively,
+     executing a T2D run on AES to get an idea of the test failure
+     threshold(s) (something I will eventually do and publish on the web so
+     everybody doesn't have to do it independently) and then running it on
+     your target generator.  Failure with numbers of psamples within an order
+     of magnitude of the AES thresholds should probably be considered
+     possible test failures, not generator failures.  Failures at levels
+     significantly less than the known gold standard generator failure
+     thresholds are, of course, probably failures of the generator.
+
+     This option should only be used with -k 2.
+
+  -v verbose flag -- controls the verbosity of the output for debugging
+     only.  Probably of little use to non-developers, and developers can
+     read the enum(s) in dieharder.h and the test sources to see which
+     flag values turn on output on which routines.  1 is 'all' and will
+     result in a highly detailed trace of program activity.
+
+     -x,-y,-z number - Some tests have parameters that can safely be varied
+     from their default value.  For example, in the diehard birthdays test,
+     one can vary the number of 'dates' drawn from the 'year' of some
+     length, which can also be varied.  -x 2048 -y 30 alters these two values
+     but should still run fine.  These parameters should be documented
+     internally (where they exist) in the e.g. -d 0 -h visible notes.
+
+  NOTE WELL:  The assessment(s) for the rngs may, in fact, be completely
+  incorrect or misleading.  In particular, 'Weak' pvalues should occur
+  one test in a hundred, and 'Failed' pvalues should occur one test in
+  a thousand -- that's what p MEANS.  Use them at your Own Risk!  Be Warned!
+
+#=============================================================================#
+#            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
+#=============================================================================#
+   rng_name    |           filename             |rands/second|
+ file_input_raw|              quantis-4M-win.bin|  1.42e+07  |
+#=============================================================================#
+        test_name   |ntup| tsamples |psamples|  p-value |Assessment
+#=============================================================================#
+   diehard_birthdays|   0|       100|     100|0.58294485|  PASSED  
+      diehard_operm5|   0|   1000000|     100|0.83345323|  PASSED  
+  diehard_rank_32x32|   0|     40000|     100|0.33927221|  PASSED  
+    diehard_rank_6x8|   0|    100000|     100|0.48215330|  PASSED  
+   diehard_bitstream|   0|   2097152|     100|0.10069532|  PASSED  
+        diehard_opso|   0|   2097152|     100|0.95921986|  PASSED  
+        diehard_oqso|   0|   2097152|     100|0.30289295|  PASSED  
+         diehard_dna|   0|   2097152|     100|0.78837010|  PASSED  
+diehard_count_1s_str|   0|    256000|     100|0.45257354|  PASSED  
+diehard_count_1s_byt|   0|    256000|     100|0.99401905|  PASSED  
+ diehard_parking_lot|   0|     12000|     100|0.49340705|  PASSED  
+    diehard_2dsphere|   2|      8000|     100|0.29654416|  PASSED  
+    diehard_3dsphere|   3|      4000|     100|0.03910899|  PASSED  
+     diehard_squeeze|   0|    100000|     100|0.56317779|  PASSED  
+        diehard_sums|   0|       100|     100|0.02421991|  PASSED  
+        diehard_runs|   0|    100000|     100|0.99348085|  PASSED  
+        diehard_runs|   0|    100000|     100|0.15029748|  PASSED  
+       diehard_craps|   0|    200000|     100|0.52148693|  PASSED  
+       diehard_craps|   0|    200000|     100|0.50417917|  PASSED  
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.36819854|  PASSED  
+ marsaglia_tsang_gcd|   0|  10000000|     100|0.14400511|  PASSED  
+         sts_monobit|   1|    100000|     100|0.70030393|  PASSED  
+            sts_runs|   2|    100000|     100|0.45353765|  PASSED  
+          sts_serial|   1|    100000|     100|0.09324772|  PASSED  
+          sts_serial|   2|    100000|     100|0.57870499|  PASSED  
+          sts_serial|   3|    100000|     100|0.59429280|  PASSED  
+          sts_serial|   3|    100000|     100|0.18719538|  PASSED  
+          sts_serial|   4|    100000|     100|0.09892062|  PASSED  
+          sts_serial|   4|    100000|     100|0.41816260|  PASSED  
+          sts_serial|   5|    100000|     100|0.78382922|  PASSED  
+          sts_serial|   5|    100000|     100|0.73998968|  PASSED  
+          sts_serial|   6|    100000|     100|0.44334780|  PASSED  
+          sts_serial|   6|    100000|     100|0.76577113|  PASSED  
+          sts_serial|   7|    100000|     100|0.42801752|  PASSED  
+          sts_serial|   7|    100000|     100|0.96890432|  PASSED  
+          sts_serial|   8|    100000|     100|0.44932920|  PASSED  
+          sts_serial|   8|    100000|     100|0.99082416|  PASSED  
+          sts_serial|   9|    100000|     100|0.94781096|  PASSED  
+          sts_serial|   9|    100000|     100|0.99994827|   WEAK   
+          sts_serial|  10|    100000|     100|0.74373855|  PASSED  
+          sts_serial|  10|    100000|     100|0.97656429|  PASSED  
+          sts_serial|  11|    100000|     100|0.94978880|  PASSED  
+          sts_serial|  11|    100000|     100|0.73190830|  PASSED  
+          sts_serial|  12|    100000|     100|0.96219707|  PASSED  
+          sts_serial|  12|    100000|     100|0.26779979|  PASSED  
+          sts_serial|  13|    100000|     100|0.93857188|  PASSED  
+          sts_serial|  13|    100000|     100|0.62078810|  PASSED  
+          sts_serial|  14|    100000|     100|0.52110892|  PASSED  
+          sts_serial|  14|    100000|     100|0.17252405|  PASSED  
+          sts_serial|  15|    100000|     100|0.74817579|  PASSED  
+          sts_serial|  15|    100000|     100|0.51918430|  PASSED  
+          sts_serial|  16|    100000|     100|0.07908393|  PASSED  
+          sts_serial|  16|    100000|     100|0.31274218|  PASSED  
+         rgb_bitdist|   1|    100000|     100|0.92328374|  PASSED  
+         rgb_bitdist|   2|    100000|     100|0.53661335|  PASSED  
+         rgb_bitdist|   3|    100000|     100|0.34743726|  PASSED  
+         rgb_bitdist|   4|    100000|     100|0.54791136|  PASSED  
+         rgb_bitdist|   5|    100000|     100|0.80484020|  PASSED  
+         rgb_bitdist|   6|    100000|     100|0.33351006|  PASSED  
+         rgb_bitdist|   7|    100000|     100|0.42055678|  PASSED  
+         rgb_bitdist|   8|    100000|     100|0.53960197|  PASSED  
+         rgb_bitdist|   9|    100000|     100|0.34324758|  PASSED  
+         rgb_bitdist|  10|    100000|     100|0.25137282|  PASSED  
+         rgb_bitdist|  11|    100000|     100|0.74791354|  PASSED  
+         rgb_bitdist|  12|    100000|     100|0.73884552|  PASSED  
+rgb_minimum_distance|   2|     10000|    1000|0.85787718|  PASSED  
+rgb_minimum_distance|   3|     10000|    1000|0.36508937|  PASSED  
+rgb_minimum_distance|   4|     10000|    1000|0.38557743|  PASSED  
+rgb_minimum_distance|   5|     10000|    1000|0.02385468|  PASSED  
+    rgb_permutations|   2|    100000|     100|0.81438172|  PASSED  
+    rgb_permutations|   3|    100000|     100|0.37274357|  PASSED  
+    rgb_permutations|   4|    100000|     100|0.94795323|  PASSED  
+    rgb_permutations|   5|    100000|     100|0.80296318|  PASSED  
+      rgb_lagged_sum|   0|   1000000|     100|0.70642447|  PASSED  
+      rgb_lagged_sum|   1|   1000000|     100|0.04656078|  PASSED  
+      rgb_lagged_sum|   2|   1000000|     100|0.83416607|  PASSED  
+      rgb_lagged_sum|   3|   1000000|     100|0.01954132|  PASSED  
+      rgb_lagged_sum|   4|   1000000|     100|0.13435863|  PASSED  
+      rgb_lagged_sum|   5|   1000000|     100|0.23798484|  PASSED  
+      rgb_lagged_sum|   6|   1000000|     100|0.88880292|  PASSED  
+      rgb_lagged_sum|   7|   1000000|     100|0.14898920|  PASSED  
+      rgb_lagged_sum|   8|   1000000|     100|0.04575717|  PASSED  
+      rgb_lagged_sum|   9|   1000000|     100|0.01171925|  PASSED  
+      rgb_lagged_sum|  10|   1000000|     100|0.98164224|  PASSED  
+      rgb_lagged_sum|  11|   1000000|     100|0.66284423|  PASSED  
+      rgb_lagged_sum|  12|   1000000|     100|0.00797811|  PASSED  
+      rgb_lagged_sum|  13|   1000000|     100|0.66574440|  PASSED  
+      rgb_lagged_sum|  14|   1000000|     100|0.00001162|   WEAK   
+      rgb_lagged_sum|  15|   1000000|     100|0.14540339|  PASSED  
+      rgb_lagged_sum|  16|   1000000|     100|0.12314272|  PASSED  
+      rgb_lagged_sum|  17|   1000000|     100|0.86803282|  PASSED  
+      rgb_lagged_sum|  18|   1000000|     100|0.36930565|  PASSED  
+      rgb_lagged_sum|  19|   1000000|     100|0.00021822|   WEAK   
+      rgb_lagged_sum|  20|   1000000|     100|0.08023407|  PASSED  
+      rgb_lagged_sum|  21|   1000000|     100|0.39012861|  PASSED  
+      rgb_lagged_sum|  22|   1000000|     100|0.24698618|  PASSED  
+      rgb_lagged_sum|  23|   1000000|     100|0.17119374|  PASSED  
+      rgb_lagged_sum|  24|   1000000|     100|0.01621956|  PASSED  
+      rgb_lagged_sum|  25|   1000000|     100|0.13744006|  PASSED  
+      rgb_lagged_sum|  26|   1000000|     100|0.00837049|  PASSED  
+      rgb_lagged_sum|  27|   1000000|     100|0.16904279|  PASSED  
+      rgb_lagged_sum|  28|   1000000|     100|0.55856084|  PASSED  
+      rgb_lagged_sum|  29|   1000000|     100|0.00003949|   WEAK   
+      rgb_lagged_sum|  30|   1000000|     100|0.12796055|  PASSED  
+      rgb_lagged_sum|  31|   1000000|     100|0.34889598|  PASSED  
+      rgb_lagged_sum|  32|   1000000|     100|0.07683619|  PASSED  
+     rgb_kstest_test|   0|     10000|    1000|0.28997257|  PASSED  
+     dab_bytedistrib|   0|  51200000|       1|0.39639856|  PASSED  
+             dab_dct| 256|     50000|       1|0.45241142|  PASSED  
+Preparing to run test 207.  ntuple = 0
+        dab_filltree|  32|  15000000|       1|0.33476754|  PASSED  
+        dab_filltree|  32|  15000000|       1|0.47072834|  PASSED  
+Preparing to run test 208.  ntuple = 0
+       dab_filltree2|   0|   5000000|       1|0.60426865|  PASSED  
+       dab_filltree2|   1|   5000000|       1|0.19383691|  PASSED  
+Preparing to run test 209.  ntuple = 0
+        dab_monobit2|  12|  65000000|       1|0.95361997|  PASSED  

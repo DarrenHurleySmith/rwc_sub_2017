@@ -1,0 +1,5 @@
+0,File-bits,Entropy,Chi-square,Mean,Monte-Carlo-Pi,Serial-Correlation
+1,16777216000,1.000000,80.719524,0.499965,3.141665,0.000107326465198
+2,Value,Occurrences,Fraction
+3,0,8389189861,0.500035
+3,1,8388026139,0.499965
